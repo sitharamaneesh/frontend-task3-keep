@@ -22,43 +22,42 @@
 <body>
 
   <div class="head">
-  <nav class="navbar navbar-expand-lg  ">
-    <a class="navbar-brand  ms-5" href="#">
-      <img class="" src="images/logo.png" alt="image"> Keep
-    </a>
-    <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="interactive-menu-button">
-                      <a href="#">
-                        <span class="navbar-toggler-icon"></span>
-                      </a>
-                    </div>
-                  </button>-->
+    <header class="d-flex p-1">
+      <div class="logo ">
+        <a class="navbar-brand  ms-5" href="#">
+          <img class="" width=20%; src="images/logo.png" alt="image"> 
+          <span>Keep</span>
+        </a>
+      </div>
 
-    <div class="   ms-auto  me-3">
-    <img class="rounded-circle" src="images/unnamed.png" alt="icon">
-    </div>
-  </nav>
+      <div class=" name-icon d-flex align-items-center ms-auto  me-3">
+        <a>
+          <img class="rounded-circle" src="images/unnamed.png" alt="icon">
+        </a>
+      </div>
+    </header>
   </div>
-  <div class="content d-flex " >
+  <div class="content  d-flex " >
         <div class="side "  >
-          <ul style="list-style: none;">
-            <li class="flex-fill "><img src="images/light.png" width="15%" class="me-5">
-              <p>Notes</p>
+          <ul style="list-style: none;" >
+            <li class=" d-flex flex-fill  "><img class="rounded-circle"   src="images/light.png" >
+             <!--<p class="align-content-center">Notes</p>--> 
             </li>
           </ul>
         </div>
  
 
         <div class="main" >
-            <div class="box d-flex">
-              
-            <input class="note flex-fill p-1 border rounded"  type="text" placeholder="Take a Note....">   <button class="bg-transparent me-5" style="border-color: transparent;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
-              <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-              <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"/>
-            </svg></button></input>
-         
-
-            </div>
+          <div class="box d-flex">
+            <input class="note flex-fill p-1 border rounded"  type="text" placeholder="Take a Note....">   
+              <button class="bg-transparent me-5" style="border-color: transparent;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                  <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"/>
+                </svg>
+              </button>
+            </input>
+          </div>
         </div>
   </div>
 </body>
