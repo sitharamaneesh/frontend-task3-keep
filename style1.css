@@ -54,9 +54,13 @@ body{
     padding:10px;
     align-content: center;
     border-image:round;
-    width:20%;
+    width:50%;
     margin-left: 7%;
    
+}
+
+.side li .note{
+    padding-top: 6px;
 }
 
 .main{
