@@ -59,4 +59,7 @@ function leave_note()
 
     var note=document.getElementById('note_div');
     note.setAttribute("style","display:none;")
+
+    var list=document.getElementById('newlist_id');
+    list.setAttribute("style","display:block;")
 }
