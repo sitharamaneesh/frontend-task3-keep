@@ -44,7 +44,7 @@ function enter_note()
 
     var title=document.getElementById('title_div');
     title.innerHTML="Title...";
-    title.setAttribute("style","flex:1;width:100%;")
+    
      
     var note=document.getElementById('note_div');
     note.setAttribute("style","display:block;min-height:150px;")
