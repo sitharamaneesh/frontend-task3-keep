@@ -38,7 +38,7 @@
       </div>
     </header>
   </div>
-  <div class="content    align-items-center " >
+  <div class="content   d-flex  " >
         <div class="side"  >
           <ul style="list-style: none; " class="d-flex " >
             <li class=" d-flex flex-fill" id="note-list">
@@ -60,16 +60,19 @@
         <div class="main"  >
           <div class="box ">
             <div class="textbox_div">
+
               <div id="title_div" onclick="enter_note()" ondblclick="leave_note()" class="border rounded"  contenteditable="true" aria-label="Title" aria-multiline="true" role="textbox">
                 Take a note...
               </div>
              
             </div>  
             <div id="newlist_id" class="rounded-circle">
+
               <div  class="bg-transparent newlist" onmouseover="newlist()"  onmouseleave="out_newlist()" aria-label="New list" style="border-color: transparent;" aria-disabled="false" style="user-select: none;" data-toggle="tooltip" title="New list"
               role="button">
               </div>
             </div>
+            
           </div>
           <div    contenteditable="true" aria-multiline="true" role="textbox" id="note_div" aria-label="Take a note…" tabindex="0" spellcheck="true" style="display: none;" >
             Take a note...

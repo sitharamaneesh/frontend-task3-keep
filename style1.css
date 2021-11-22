@@ -35,19 +35,21 @@ body{
    
 }
 
-.head .name-icon
+/*.head .name-icon
 {
     position: relative;
-}
+}*/
 .side
 {
     width:15%;
+    position: relative;
    
 }
 .side ul
 {
    margin-left:-30px;
    margin-top: 10px;
+  
 }
 
 
@@ -61,7 +63,7 @@ body{
     border-image:round;
     width:50%;
     margin-left: 7%;
-   
+    
 }
 
 .side li .note
@@ -92,6 +94,7 @@ body{
     width: 50%;
     margin-left:auto;
     margin-right: auto;
+    margin-top: 30px;
     
 }
 
@@ -160,26 +163,36 @@ height: inherit;
 
 @media  screen and (max-width:600px) 
 {
+
+
     .side li
     {
         background-color: none;
+        position: relative;
     }
- .side li p
-    {
-        display: none;
-    }
-   .side li img
-   {  
-    background-color: #feefc3;
+
+   .side li .note
+   {
     border-image-repeat: round;
     width:70%;
+    position: absolute;
    }
 
    .main .box
    {
        margin-left: 0%;
        width: 90%;
-       margin-top: 20px;
+      
    }
     
+   #note_div
+   {
+    margin-left: 0%;
+    width: 90%;
+   }
+
+   .side {
+
+    width:40%;
+   }
 }
